@@ -16,27 +16,39 @@ This data is provided on a minute-by-minute basis and aggregated from the Xetra 
 
 ## Content
 
-- Quick and Dirty.
+- Quick and Dirty Approach - Pandas.
 
-- Functional Approach.
+- Functional Approach - Pandas.
 
-- Object Oriented Approach.
+- Object Oriented Approach - Visual Studio.
 
 ## Files
 
-- [`AssociateProfitSplitter.sol`](Starter-Code/AssociateProfitSplitter.sol) -- Level 1 starter code.
+### Quick and Dirty Approach
 
-- [`TieredProfitSplitter.sol`](Starter-Code/TieredProfitSplitter.sol) -- Level 2 starter code.
+- [`access_xetra_data.sql`](Starter-Code/access_xetra_data.sql) -- Level 1 starter code.
 
-- [`DeferredEquityPlan.sol`](Starter-Code/DeferredEquityPlan.sol) -- Level 3 starter code.
+- [`quick_etl_solution.sql`](Starter-Code/quick_etl_solution.sql) -- Level 2 starter code.
+
+### Quick and Dirty Approach
+
+- [`access_xetra_data.sql`](Starter-Code/AssociateProfitSplitter.sol) -- Level 1 starter code.
+
+- [`quick_etl_solution.sol`](Starter-Code/TieredProfitSplitter.sol) -- Level 2 starter code.
+
+### Quick and Dirty Approach
+
+- [`access_xetra_data.sql`](Starter-Code/AssociateProfitSplitter.sol) -- Level 1 starter code.
+
+- [`quick_etl_solution.sol`](Starter-Code/TieredProfitSplitter.sol) -- Level 2 starter code.
 
 ## Task Background
 
 This assignment has three levels of difficulty, with each contract increasing in complexity and capability. Although it is highly recommended you complete all three contracts, you are only required to solve one of the three contracts. Recommended to start with Level 1, then move forward as you complete the challenges. You can build all three with the skills you already have!
 
-- **Level One** is an `AssociateProfitSplitter` contract. This will accept Ether into the contract and divide the Ether evenly among the associate level employees. This will allow the Human Resources department to pay employees quickly and efficiently.
+- **Level One** is an `access_xetra_data.sql` contract. This will accept Ether into the contract and divide the Ether evenly among the associate level employees. This will allow the Human Resources department to pay employees quickly and efficiently.
 
-- **Level Two** is a `TieredProfitSplitter` that will distribute different percentages of incoming Ether to employees at different tiers/levels. For example, the CEO gets paid 60%, CTO 25%, and Bob gets 15%.
+- **Level Two** is a `quick_etl_solution.sql` that will distribute different percentages of incoming Ether to employees at different tiers/levels. For example, the CEO gets paid 60%, CTO 25%, and Bob gets 15%.
 
 - **Level Three** is a `DeferredEquityPlan` that models traditional company stock plans. This contract will automatically manage 1000 shares with an annual distribution of 250 over 4 years for a single employee.
 
