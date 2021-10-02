@@ -1,3 +1,5 @@
+# PLEASE NOTE THE PROJECT IS ONLY 30% COMPLETED. BY END OF WEEK OCTOBER 13 COMPLETE DATE
+
 # OOP - "Automate ETL process using Python and AWS"
 
 ![contract](Images/data_python.png)
@@ -26,35 +28,29 @@ This data is provided on a minute-by-minute basis and aggregated from the Xetra 
 
 ### Quick and Dirty Approach
 
-- [`access_xetra_data.sql`](Starter-Code/access_xetra_data.sql) -- Level 1 starter code.
+- [`access_xetra_data.ipynb`](Starter-Code/access_xetra_data.ipynb) -- Level 1 starter code.
 
-- [`quick_etl_solution.sql`](Starter-Code/quick_etl_solution.sql) -- Level 2 starter code.
-
-### Quick and Dirty Approach
-
-- [`access_xetra_data.sql`](Starter-Code/AssociateProfitSplitter.sol) -- Level 1 starter code.
-
-- [`quick_etl_solution.sol`](Starter-Code/TieredProfitSplitter.sol) -- Level 2 starter code.
+- [`quick_etl_solution.ipynb`](Starter-Code/quick_etl_solution.ipynb) -- Level 2 starter code.
 
 ### Quick and Dirty Approach
 
-- [`access_xetra_data.sql`](Starter-Code/AssociateProfitSplitter.sol) -- Level 1 starter code.
+- [`access_xetra_data.ipynb`](Starter-Code/AssociateProfitSplitter.ipynb) -- Level 1 starter code.
 
-- [`quick_etl_solution.sol`](Starter-Code/TieredProfitSplitter.sol) -- Level 2 starter code.
+- [`quick_etl_solution.ipynb`](Starter-Code/TieredProfitSplitter.ipynb) -- Level 2 starter code.
+
+### Quick and Dirty Approach
+
+- [`access_xetra_data.ipynb`](Starter-Code/AssociateProfitSplitter.ipynb) -- Level 1 starter code.
+
+- [`quick_etl_solution.ipynb`](Starter-Code/TieredProfitSplitter.ipynb) -- Level 2 starter code.
 
 ## Task Background
 
-This assignment has three levels of difficulty, with each contract increasing in complexity and capability. Although it is highly recommended you complete all three contracts, you are only required to solve one of the three contracts. Recommended to start with Level 1, then move forward as you complete the challenges. You can build all three with the skills you already have!
+This project has four levels of difficulty, with each design increasing in complexity and capability. Each level is critical to the overall project and is recommended to complete all four levels.
 
-- **Level One** is an `access_xetra_data.sql` contract. This will accept Ether into the contract and divide the Ether evenly among the associate level employees. This will allow the Human Resources department to pay employees quickly and efficiently.
+- **Level One** is an `access_xetra_data.ipynb`. The goal of this python pandas code is to quickly connect to AWS S3 and Github -- source from Deutshce Boerse
 
-- **Level Two** is a `quick_etl_solution.sql` that will distribute different percentages of incoming Ether to employees at different tiers/levels. For example, the CEO gets paid 60%, CTO 25%, and Bob gets 15%.
-
-- **Level Three** is a `DeferredEquityPlan` that models traditional company stock plans. This contract will automatically manage 1000 shares with an annual distribution of 250 over 4 years for a single employee.
-
-Navigate to the [Remix IDE](https://remix.ethereum.org) and create a new contract called `AssociateProfitSplitter.sol` using the starter code for level one above.
-
-While developing and testing your contract, use the [Ganache](https://www.trufflesuite.com/ganache) development chain, and point MetaMask to `localhost:8545`, or replace the port with what you have set in your workspace.
+- **Level Two** is a `quick_etl_solution.ipynb` This illustrate python pandas code to from source to report
 
 ### Step one: Quick and Dirty
 
