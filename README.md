@@ -46,6 +46,15 @@ This data is provided on a minute-by-minute basis and aggregated from the Xetra 
 
 ## Task Background
 
+![Source Report](Images/xetra_report_src.png)
+
+Above is a sample of the data set to get a first impression, the first columnists, the ISIN the
+International Securities Identification Number, each entry of an ISIN shows basic information such as the security type and security ID. The StartPrice, MaxPrice, MinPrice EndPrce and shows how many trade volumes and the number of trades.
+
+The case study shows that our client requirements would like to implement a report that is looking like this.
+
+![Weekly Report](Images/xetra_wkly_report.png)
+
 This project has four levels of difficulty, with each design increasing in complexity and capability. Each level is critical to the overall project and is recommended to complete all four levels.
 
 - **Level One** is an `access_xetra_data.ipynb`. The goal of this python pandas code is to quickly connect to AWS S3 and Github -- source from Deutshce Boerse
@@ -110,6 +119,14 @@ Test the `deposit` function by sending various values. Keep an eye on the `emplo
 - padas, boto3, pyyaml, awscli, jupyter, pylint, moto, coverage, memory-profile
 
 </details>
+
+<details>
+<summary>Python Code</summary>
+
+- Target format parquet
+- First date for the report
+- Auto-detection of the source files to be processed
+- Configurable production-ready Python job
 
 <details>
 <summary>Best Practice Python</summary>
