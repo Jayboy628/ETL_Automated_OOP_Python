@@ -4,7 +4,9 @@
 
 ## Background
 
-Your new startup has created its own Ethereum-compatible blockchain to help connect financial institutions, and the team wants to build smart contracts to automate some company finances to make everyone's lives easier, increase transparency, and to make accounting and auditing practically automatic!
+My name is Shaunjay Brown and I have years of experience in Business Intelligence and Data Analysis. Data extraction is one of my many functions in BI and I mainly used SSIS and SQL to Extract Transform and Load. However, I find that SSIS is better suited for large functions like data migration because of the overhead cost with performance and that you would need to maintain the database which can be time consuming.
+I am very excited for my new love of python and using pandas with python allows me to quickly profile the data and quickly decide what I need for my reports.
+One major issue I had in using the Python ETL tool is that I had to rewrite python code for every new report and more importantly it wasn’t automated. Below I am going to demonstrate how we can automate ETL process with Python.
 
 Fortunately, you've been learning how to program smart contracts with Solidity! What you will be doing this assignment is creating 3 `ProfitSplitter` contracts. These contracts will do several things:
 
