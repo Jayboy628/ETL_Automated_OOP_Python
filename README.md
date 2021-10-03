@@ -18,6 +18,9 @@ This data is provided on a minute-by-minute basis and aggregated from the Xetra 
 
 ## Content
 
+- Preconfig
+  - Set up virtual Environment
+  - Set up AWS
 - Quick and Dirty Approach - Pandas.
 
 - Functional Approach - Pandas.
@@ -48,14 +51,33 @@ This data is provided on a minute-by-minute basis and aggregated from the Xetra 
 
 ![Source Report](Images/xetra_report_src.png)
 
-Above is a sample of the data set to get a first impression, the first columnists, the ISIN the
+Above is a sample of the data set as an example, the first columnists, the ISIN the
 International Securities Identification Number, each entry of an ISIN shows basic information such as the security type and security ID. The StartPrice, MaxPrice, MinPrice EndPrce and shows how many trade volumes and the number of trades.
 
 The case study shows that our client requirements would like to implement a report that is looking like this.
 
 ![Weekly Report](Images/xetra_wkly_report.png)
 
+Here we see an aggregation of the ISI ends on a daily basis and what we want to know are the opening,closing, minimum and maximum price, the daily traded volume and the change of the current day's closing price compared to the previous trading days
+
+Our task now is to create a production ready python data job that is extracting, the source xetra dataset data set from the xetra as S3 buckets since the last run of the job and saves the report in the
+target S3 bucket
+
+Above
+
 This project has four levels of difficulty, with each design increasing in complexity and capability. Each level is critical to the overall project and is recommended to complete all four levels.
+
+However before we start coding we need to implement a few
+
+### Preconfig
+
+#### Set up virtual Environment
+
+    Developing a Virtual Environment for production is highly recommended because it helps manage different versions of tools and packages. A developer will be able to go between projects without uninstalling and reinstalling packages. The standard approach is to use a separate virtual environment for each project in Python
+
+#### Set up AWS
+
+    Developing a Virtual Environment for production is highly recommended because it helps manage different versions of tools and packages. A developer will be able to go between projects without uninstalling and reinstalling packages. The standard approach is to use a separate virtual environment for each project in Python
 
 - **Level One** is an `access_xetra_data.ipynb`. The goal of this python pandas code is to quickly connect to AWS S3 and Github -- source from Deutshce Boerse
 
