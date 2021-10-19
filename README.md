@@ -31,7 +31,7 @@ This data is provided on a minute-by-minute basis and aggregated from the Xetra 
 
 ### Quick and Dirty Approach
 
-- [`access_xetra_data.ipynb`](Starter-Code/access_xetra_data.ipynb) -- Level 1 starter code.
+- [`access_xetra_data.ipynb`](Starter-Code/access_the_xetra_data.ipynb) -- Level 1 Project AWS Connect to Deutsche AWS .
 
 - [`quick_etl_solution.ipynb`](Starter-Code/quick_etl_solution.ipynb) -- Level 2 starter code.
 
@@ -96,8 +96,9 @@ However before we start coding we need to implement a few
 ![Weekly Report](Images/aws_configure.png) \* Test connection with the your account and Deutche.. see below
 ![Weekly Report](Images/aws_deutche1.png)
 
-- **Level One** is an `access_xetra_data.ipynb`. The goal of this python pandas code is to quickly connect to AWS S3 and Github -- source from Deutshce Boerse
-
+- **Level One** is an `access_the_xetra_data.ipynb`. The goal of this python pandas code is to quickly connect to
+  the project AWS S3 bucket and pull data from Deutshce Boerse AWS S3 bucket.. see below
+  ![Weekly Report](Images/accessing.png)
 - **Level Two** is a `quick_etl_solution.ipynb` This illustrate python pandas code to from source to report
 
 ### Step one: Quick and Dirty
