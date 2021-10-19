@@ -31,7 +31,7 @@ This data is provided on a minute-by-minute basis and aggregated from the Xetra 
 
 ### Quick and Dirty Approach
 
-- [`access_xetra_data.ipynb`](Starter-Code/access_the_xetra_data.ipynb) -- Level 1 Project AWS Connect to Deutsche AWS .
+- [`access_xetra_data.ipynb`](Starter-Code/accessing_the_xetra_data.ipynb) -- Level 1 Project AWS Connect to Deutsche AWS .
 
 - [`quick_etl_solution.ipynb`](Starter-Code/quick_etl_solution.ipynb) -- Level 2 starter code.
 
