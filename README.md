@@ -73,11 +73,28 @@ However before we start coding we need to implement a few
 
 #### Set up virtual Environment
 
-    Developing a Virtual Environment for production is highly recommended because it helps manage different versions of tools and packages. A developer will be able to go between projects without uninstalling and reinstalling packages. The standard approach is to use a separate virtual environment for each project in Python
+    * Virtual Environment -> virtualenv
+    * pip
+    * setuptools
+    * wheel
+    * pandas
 
 #### Set up AWS
 
-    Developing a Virtual Environment for production is highly recommended because it helps manage different versions of tools and packages. A developer will be able to go between projects without uninstalling and reinstalling packages. The standard approach is to use a separate virtual environment for each project in Python
+    * AWS account or register an account for free
+    * IAM -> Users -> Add User (create a nane)-> Access type (Programmatic access)
+    ** Attach existing policies -> Filter police (s3) -> AmazonS3Full Access -> create user
+    ** Download the CSV file -> Acces Key Id and Secret access key
+    * Add Access Key Id and Secret Access key to the environment variables
+
+#### Install AWS CLI
+
+    * open your environment -> (Mac) source ~/.bash_profile or (Windows) pipenv shell
+    * mac -> pip3 install awscli windows -> pipenv install awscli
+    * Type aws configure and Acces Key Id and Secret access key.. see below
+
+![Weekly Report](Images/aws_configure.png) \* Test connection with the your account and Deutche.. see below
+![Weekly Report](Images/aws_deutche.png)
 
 - **Level One** is an `access_xetra_data.ipynb`. The goal of this python pandas code is to quickly connect to AWS S3 and Github -- source from Deutshce Boerse
 
@@ -138,7 +155,7 @@ Test the `deposit` function by sending various values. Keep an eye on the `emplo
 - Jupyter Notebook
 - Github
 - Visual Studio
-- padas, boto3, pyyaml, awscli, jupyter, pylint, moto, coverage, memory-profile
+- pandas, boto3, pyyaml, awscli, jupyter, pylint, moto, coverage, memory-profile
 
 </details>
 
