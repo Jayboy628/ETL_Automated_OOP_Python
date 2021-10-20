@@ -96,17 +96,9 @@ However before we start coding we need to implement a few
 ![Weekly Report](Images/aws_configure.png) \* Test connection with the your account and Deutche.. see below
 ![Weekly Report](Images/aws_deutche1.png)
 
-##************************************************************\_\_************************************************************
+## **************************************************\_**************************************************
 
 ### Step one: Quick and Dirty
-
-At the top of your contract, you will need to define the following `public` variables:
-
-- `employee_one` -- The `address` of the first employee. Make sure to set this to `payable`.
-
-- `employee_two` -- Another `address payable` that represents the second employee.
-
-- `employee_three` -- The third `address payable` that represents the third employee.
 
 - **Level One** `access_the_xetra_data.ipynb`. The goal of this python pandas code is to quickly connect to
   the project AWS S3 bucket and pull data from Deutshce Boerse AWS S3 bucket.. see below
