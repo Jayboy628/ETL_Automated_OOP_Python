@@ -35,13 +35,13 @@ This data is provided on a minute-by-minute basis and aggregated from the Xetra 
 
 - [`quick_etl_solution.ipynb`](Starter-Code/quick_etl_solution.ipynb) -- Level 2 starter code.
 
-### Quick and Dirty Approach
+### Reengineer Quick Approach to Funtional
 
 - [`access_xetra_data.ipynb`](Starter-Code/AssociateProfitSplitter.ipynb) -- Level 1 starter code.
 
 - [`quick_etl_solution.ipynb`](Starter-Code/TieredProfitSplitter.ipynb) -- Level 2 starter code.
 
-### Quick and Dirty Approach
+### Production - Objection Oriented Programming
 
 - [`access_xetra_data.ipynb`](Starter-Code/AssociateProfitSplitter.ipynb) -- Level 1 starter code.
 
@@ -96,7 +96,7 @@ However before we start coding we need to implement a few
 ![Weekly Report](Images/aws_configure.png) \* Test connection with the your account and Deutche.. see below
 ![Weekly Report](Images/aws_deutche1.png)
 
-## **************************************************\_**************************************************
+---
 
 ### Step one: Quick and Dirty
 
@@ -104,6 +104,12 @@ However before we start coding we need to implement a few
   the project AWS S3 bucket and pull data from Deutshce Boerse AWS S3 bucket.. see below
   ![Weekly Report](Images/accessing.png)
 - **Level Two** is a `quick_etl_solution.ipynb` This illustrate python pandas code to from source to report
+
+### Step one: Quick and Dirty
+
+### Step two: Reengineer Quick Approach to Funtional
+
+### Step Three: Objection Oriented Programming
 
 ### Requirements
 
