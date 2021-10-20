@@ -102,15 +102,18 @@ However before we start coding we need to implement a few
 
 - **Level One** `access_the_xetra_data.ipynb`. The goal of this python pandas code is to quickly connect to
   the project AWS S3 bucket and pull data from Deutshce Boerse AWS S3 bucket.. see below
+
   ![Weekly Report](Images/accessing.png)
 
-- **Level Two** is a `quick_etl_solution.ipynb` This illustrate python pandas code to from source to report
+- **Level Two** is a `quick_xetra_etl.ipynb` This illustrate
 
-### Step two: Quick and Dirty
+  ![Weekly Report](Images/variables.png)
 
-### Step three: Reengineer Quick Approach to Funtional
+### Step two: Reengineer Quick Approach to Funtional
 
-### Step four: Objection Oriented Programming
+### Step three: Objection Oriented Programming
+
+### Step four: Finalizing ETL Job
 
 ### Requirements
 
