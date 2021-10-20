@@ -83,8 +83,8 @@ However before we start coding we need to implement a few
 
     * AWS account or register an account for free
     * IAM -> Users -> Add User (create a nane)-> Access type (Programmatic access)
-    ** Attach existing policies -> Filter police (s3) -> AmazonS3Full Access -> create user
-    ** Download the CSV file -> Acces Key Id and Secret access key
+    - Attach existing policies -> Filter police (s3) -> AmazonS3Full Access -> create user
+    - Download the CSV file -> Acces Key Id and Secret access key
     * Add Access Key Id and Secret Access key to the environment variables
 
 #### Install AWS CLI
@@ -96,7 +96,7 @@ However before we start coding we need to implement a few
 ![Weekly Report](Images/aws_configure.png) \* Test connection with the your account and Deutche.. see below
 ![Weekly Report](Images/aws_deutche1.png)
 
-- **Level One** is an `access_the_xetra_data.ipynb`. The goal of this python pandas code is to quickly connect to
+- **Level One** `access_the_xetra_data.ipynb`. The goal of this python pandas code is to quickly connect to
   the project AWS S3 bucket and pull data from Deutshce Boerse AWS S3 bucket.. see below
   ![Weekly Report](Images/accessing.png)
 - **Level Two** is a `quick_etl_solution.ipynb` This illustrate python pandas code to from source to report
