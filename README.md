@@ -33,7 +33,7 @@ This data is provided on a minute-by-minute basis and aggregated from the Xetra 
 
 - [`access_xetra_data.ipynb`](Starter-Code/accessing_the_xetra_data.ipynb) -- Level 1 Project AWS Connect to Deutsche AWS .
 
-- [`quick_etl_solution.ipynb`](Starter-Code/quick_etl_solution.ipynb) -- Level 2 starter code.
+- [`quick_etl_solution.ipynb`](Starter-Code/quick_xetra_etl.ipynb) -- Level 2 Create a Report from Deutsche AWS Source.
 
 ### Reengineer Quick Approach to Funtional
 
@@ -105,9 +105,12 @@ However before we start coding we need to implement a few
 
   ![Weekly Report](Images/accessing.png)
 
-- **Level Two** is a `quick_xetra_etl.ipynb` This illustrate
+- **Level Two** is a `quick_xetra_etl.ipynb` I illustrate a pulling data from the source Deutsche AWS then create a report
 
   ![Weekly Report](Images/variables.png)
+
+  -- Quick and Dirty Report
+  ![Weekly Report](Images/quick_report.png)
 
 ### Step two: Reengineer Quick Approach to Funtional
 
