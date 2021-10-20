@@ -83,8 +83,8 @@ However before we start coding we need to implement a few
 
     * AWS account or register an account for free
     * IAM -> Users -> Add User (create a nane)-> Access type (Programmatic access)
-    - Attach existing policies -> Filter police (s3) -> AmazonS3Full Access -> create user
-    - Download the CSV file -> Acces Key Id and Secret access key
+      * Attach existing policies -> Filter police (s3) -> AmazonS3Full Access -> create user
+      - Download the CSV file -> Acces Key Id and Secret access key
     * Add Access Key Id and Secret Access key to the environment variables
 
 #### Install AWS CLI
