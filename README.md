@@ -100,8 +100,9 @@ However before we start coding we need to implement a few
 
 ### Step one: Quick and Dirty
 
-- **Level One** `access_the_xetra_data.ipynb`. The goal of this python pandas code is to quickly connect to
-  the project AWS S3 bucket and pull data from Deutshce Boerse AWS S3 bucket.. see below
+- **Level One** `access_the_xetra_data.ipynb`.
+- [`access_xetra_data.ipynb`](Starter-Code/accessing_the_xetra_data.ipynb) -- Level 1 Project AWS Connect to Deutsche AWS .
+  The goal of this python pandas code is to quickly connect to the project AWS S3 bucket and pull data from Deutshce Boerse AWS S3 bucket.. see below
 
   ![Weekly Report](Images/accessing.png)
 
