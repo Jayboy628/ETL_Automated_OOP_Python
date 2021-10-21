@@ -78,7 +78,8 @@ However before we start coding we need to implement a few
 
 ---
 
-### Step one: Quick and Dirty
+<details>
+<summary> Step one: Quick and Dirty</summary>
 
 - **Level One** [`access_xetra_data.ipynb`](Starter-Code/accessing_the_xetra_data.ipynb)
   The goal of this python code is to quickly connect to the project AWS S3 bucket (xetra -proj01) and pull the data file from Deutshce Boerse (deutsche-boerde-extra-pds) AWS S3 bucket.. <span style="color:blue">See Below _blue_ text</span>
@@ -91,9 +92,10 @@ However before we start coding we need to implement a few
 
   ![Weekly Report](Images/quick_report.png)
 
+</details>
   ***
-
-### Step two: Reengineer Quick Approach to Funtional Approach
+<details>
+<summary>Step two: Reengineer Quick Approach to Funtional Approach </summary>
 
 - This approach allows us to structure our code in small chunks. The functional approach relies on a given input argument and because functions are created in a modular way it lends to a clean and reusable code. More importantly, Parallel programming State is not a factor and Mutable data is not or very little involved
 - **Adapter Layer** [`Adapter_Layer.ipynb`](Starter-Code/Adapter_Layer.ipynb)
@@ -104,6 +106,7 @@ However before we start coding we need to implement a few
 - **Application Layer - not core** [`Application_2.ipynb`](Starter-Code/Application_2.ipynb)]
 
 - **Main Entrypoint Layer** [`Main_Entry.ipynb`](Starter-Code/Main_Entry.ipynb)
+</details>
 
 ### Step three: Objection Oriented Programming
 
