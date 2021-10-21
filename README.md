@@ -1,4 +1,4 @@
-# PLEASE NOTE THE PROJECT IS ONLY 30% COMPLETED. BY END OF WEEK OCTOBER 13 COMPLETE DATE
+# PLEASE NOTE THE PROJECT IS ONLY 30% COMPLETED.
 
 # OOP - "Automate ETL process using Python and AWS"
 
@@ -26,26 +26,6 @@ This data is provided on a minute-by-minute basis and aggregated from the Xetra 
 - Functional Approach - Pandas.
 
 - Object Oriented Approach - Visual Studio.
-
-## Files
-
-### Quick and Dirty Approach
-
-- [`access_xetra_data.ipynb`](Starter-Code/accessing_the_xetra_data.ipynb) -- Level 1 Project AWS Connect to Deutsche AWS .
-
-- [`quick_etl_solution.ipynb`](Starter-Code/quick_xetra_etl.ipynb) -- Level 2 Create a Report from Deutsche AWS Source.
-
-### Reengineer Quick Approach to Funtional
-
-- [`access_xetra_data.ipynb`](Starter-Code/AssociateProfitSplitter.ipynb) -- Level 1 starter code.
-
-- [`quick_etl_solution.ipynb`](Starter-Code/TieredProfitSplitter.ipynb) -- Level 2 starter code.
-
-### Production - Objection Oriented Programming
-
-- [`access_xetra_data.ipynb`](Starter-Code/AssociateProfitSplitter.ipynb) -- Level 1 starter code.
-
-- [`quick_etl_solution.ipynb`](Starter-Code/TieredProfitSplitter.ipynb) -- Level 2 starter code.
 
 ## Task Background
 
@@ -100,13 +80,12 @@ However before we start coding we need to implement a few
 
 ### Step one: Quick and Dirty
 
-- **Level One** `access_the_xetra_data.ipynb`.
-- [`access_xetra_data.ipynb`](Starter-Code/accessing_the_xetra_data.ipynb) -- Level 1 Project AWS Connect to Deutsche AWS .
-  The goal of this python pandas code is to quickly connect to the project AWS S3 bucket and pull data from Deutshce Boerse AWS S3 bucket.. see below
+- **Level One** [`access_xetra_data.ipynb`](Starter-Code/accessing_the_xetra_data.ipynb)
+  The goal of this python code is to quickly connect to the project AWS S3 bucket (xetra -proj01) and pull the data file from Deutshce Boerse (deutsche-boerde-extra-pds) AWS S3 bucket.. see below
 
   ![Weekly Report](Images/accessing.png)
 
-- **Level Two** is a `quick_xetra_etl.ipynb` I illustrate a pulling data from the source Deutsche AWS then create a report
+- **Level Two** - [`quick_etl_solution.ipynb`](Starter-Code/quick_xetra_etl.ipynb) is a `quick_xetra_etl.ipynb` I illustrate a pulling data from the source Deutsche AWS then create a report
 
   ![Weekly Report](Images/variables.png)
 
