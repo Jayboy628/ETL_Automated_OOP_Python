@@ -85,13 +85,25 @@ However before we start coding we need to implement a few
 
   ![Weekly Report](Images/accessing.png)
 
-- **Level Two** - [`quick_etl_solution.ipynb`](Starter-Code/quick_xetra_etl.ipynb) This illustrate build upon Level One by developing a report that in the future we will automate.. <span style="color:blue">See Below _blue_ text</span>
+- **Level Two** - [`quick_xetra_etl.ipynb`](Starter-Code/quick_xetra_etl.ipynb) This illustrate build upon Level One by developing a report that in the future we will automate.. <span style="color:blue">See Below _blue_ text</span>
 
   ![Weekly Report](Images/variable.png)
 
   ![Weekly Report](Images/quick_report.png)
 
-### Step two: Reengineer Quick Approach to Funtional
+  ***
+
+### Step two: Reengineer Quick Approach to Funtional Approach
+
+- This approach allows us to structure our code in small chunks. The functional approach relies on a given input argument and because functions are created in a modular way it lends to a clean and reusable code. More importantly, Parallel programming State is not a factor and Mutable data is not or very little involved
+- **Adapter Layer** [`Adapter_Layer.ipynb`](Starter-Code/Adapter_Layer.ipynb)
+  This layer as four functions. read_csv_to_df function allow us to read the csv file(s) using pandas to read the data. write_df_s3 function
+
+- **Application Layer**[`Application_Layer.ipynb`](Starter-Code/Application_Layer.ipynb)
+
+- **Application Layer - not core** [`Application_2.ipynb`](Starter-Code/Application_2.ipynb)]
+
+- **Main Entrypoint Layer** [`Main_Entry.ipynb`](Starter-Code/Main_Entry.ipynb)
 
 ### Step three: Objection Oriented Programming
 
