@@ -1,4 +1,4 @@
-# PLEASE NOTE THE PROJECT IS ONLY 30% COMPLETED.
+### PLEASE NOTE THE PROJECT IS ONLY 30% COMPLETED.
 
 ## My Background
 
@@ -12,9 +12,7 @@ I am going to illustrate a production ready ETL pipeline in python using Pandas 
 
 ## Project Background
 
-The Deutsche Börse Public Dataset (PDS) project makes near-time data derived from Deutsche Börse's trading systems available to the public for free. This is the first time that such detailed financial market data has been shared freely and continually from the source provider.
-
-## This data is provided on a minute-by-minute basis and aggregated from the Xetra and Eurex engines, which comprise a variety of equities, funds and derivative securities. The PDS contains details for on a per security level, detailing trading activity by minute including the high, low, first and last prices within the time period.
+The Deutsche Börse Public Dataset (PDS) project makes near-time data derived from Deutsche Börse's trading systems available to the public for free. This is the first time that such detailed financial market data has been shared freely and continually from the source provider. This data is provided on a minute-by-minute basis and aggregated from the Xetra and Eurex engines, which comprise a variety of equities, funds and derivative securities. The PDS contains details for on a per security level, detailing trading activity by minute including the high, low, first and last prices within the time period.
 
 <details>
 <summary> Content </summary>
@@ -116,10 +114,15 @@ target S3 bucket Above This project has four levels of difficulty, with each des
 ---
 
 </details>
+<details>
+<summary> Step three: Objection Oriented Programming </summary>
+--
+</details>
 
-### Step three: Objection Oriented Programming
-
-### Step four: Finalizing ETL Job
+<details>
+<summary> Step four: Finalizing ETL Job </summary>
+---
+</details>
 
 ### Requirements
 
@@ -131,6 +134,9 @@ target S3 bucket Above This project has four levels of difficulty, with each des
 - Github
 - Visual Studio
 - pandas, boto3, pyyaml, awscli, jupyter, pylint, moto, coverage, memory-profile
+
+---
+
 </details>
 
 <details>
