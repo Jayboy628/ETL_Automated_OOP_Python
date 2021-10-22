@@ -40,7 +40,7 @@ The case study shows that our client requirements would like to implement a repo
 
 ![Weekly Report](Images/xetra_wkly_report.png)
 
-Here we see an aggregation of the ISI ends on a daily basis and what we want to know are the opening,closing, minimum and maximum price, the daily traded volume and the change of the current day's closing price compared to the previous trading days
+Here we see an aggregation of the ISIN ends on a daily basis and what we want to know are the opening,closing, minimum and maximum price, the daily traded volume and the change of the current day's closing price compared to the previous trading days
 Our task now is to create a production ready python data job that is extracting, the source xetra dataset data set from the xetra as S3 buckets since the last run of the job and saves the report in the
 target S3 bucket Above This project has four levels of difficulty, with each design increasing in complexity and capability. Each level is critical to the overall project and is recommended to complete all four levels.
 --
@@ -100,7 +100,8 @@ target S3 bucket Above This project has four levels of difficulty, with each des
 <details>
 <summary>Step two: Reengineer Quick Approach to Funtional Approach </summary>
 
-- This approach allows us to structure our code in small chunks. The functional approach relies on a given input argument and because functions are created in a modular way it lends to a clean and reusable code. More importantly, Parallel programming State is not a factor and Mutable data is not or very little involved
+- This approach allows us to structure our code in small chunks. The functional approach relies on a given input argument and because functions are created in a modular way it lends to a clean and reusable code.
+
 - **Adapter Layer** [`Adapter_Layer.ipynb`](Starter-Code/Adapter_Layer.ipynb)
   This layer has four functions.
 
@@ -111,6 +112,7 @@ target S3 bucket Above This project has four levels of difficulty, with each des
   This Layer use the Extract Transform, and Load (ETL) structure
 
   - When the extract function is invoked it first uses the read_csv_to_df function to read the files and then extract the data and return as an Data Frame
+  - When the transform_report1 is invoked it use the Data Frame from the extract function and then Trnsform the data to aggregated columns and then filter by date and return a finish Data Frame (report)
 
 - **Application Layer - not core** [`Application_2.ipynb`](Starter-Code/Application_2.ipynb)]
 
