@@ -1,22 +1,23 @@
 # PLEASE NOTE THE PROJECT IS ONLY 30% COMPLETED.
 
-# OOP - "Automate ETL process using Python and AWS"
-
-![contract](Images/data_python.png)
-
 ## My Background
 
 My name is Shaunjay Brown and I have years of experience in Business Intelligence and Data Analysis. Data extraction is one of my many functions in BI and I mainly used SSIS and SQL to Extract Transform and Load. However, I find that SSIS is better suited for large functions like data migration because SSIS has a high overhead cost with maintenance, performance and more importantly time consuming.
 I am very excited for my new love for python and using pandas with python allows me to quickly profile the data and quickly decide what I need for my reports.
 I am going to illustrate a production ready ETL pipeline in python using Pandas tool to write python code and Visual studio to refactorize the code into an object oriented code.
 
+# OOP - "Automate ETL process using Python and AWS"
+
+![contract](Images/data_python.png)
+
 ## Project Background
 
 The Deutsche Börse Public Dataset (PDS) project makes near-time data derived from Deutsche Börse's trading systems available to the public for free. This is the first time that such detailed financial market data has been shared freely and continually from the source provider.
 
-This data is provided on a minute-by-minute basis and aggregated from the Xetra and Eurex engines, which comprise a variety of equities, funds and derivative securities. The PDS contains details for on a per security level, detailing trading activity by minute including the high, low, first and last prices within the time period.
+## This data is provided on a minute-by-minute basis and aggregated from the Xetra and Eurex engines, which comprise a variety of equities, funds and derivative securities. The PDS contains details for on a per security level, detailing trading activity by minute including the high, low, first and last prices within the time period.
 
-## Content
+<details>
+<summary> Content </summary>
 
 - Preconfig
   - Set up virtual Environment
@@ -27,7 +28,11 @@ This data is provided on a minute-by-minute basis and aggregated from the Xetra 
 
 - Object Oriented Approach - Visual Studio.
 
-## Task Background
+---
+
+</details>
+<details>
+<summary> Task Background </summary>
 
 ![Source Report](Images/xetra_report_src.png)
 
@@ -39,17 +44,14 @@ The case study shows that our client requirements would like to implement a repo
 ![Weekly Report](Images/xetra_wkly_report.png)
 
 Here we see an aggregation of the ISI ends on a daily basis and what we want to know are the opening,closing, minimum and maximum price, the daily traded volume and the change of the current day's closing price compared to the previous trading days
-
 Our task now is to create a production ready python data job that is extracting, the source xetra dataset data set from the xetra as S3 buckets since the last run of the job and saves the report in the
-target S3 bucket
+target S3 bucket Above This project has four levels of difficulty, with each design increasing in complexity and capability. Each level is critical to the overall project and is recommended to complete all four levels.
+--
 
-Above
+</details>
 
-This project has four levels of difficulty, with each design increasing in complexity and capability. Each level is critical to the overall project and is recommended to complete all four levels.
-
-However before we start coding we need to implement a few
-
-### Preconfig
+<details>
+<summary>Preconfig </summary>
 
 #### Set up virtual Environment
 
@@ -78,6 +80,8 @@ However before we start coding we need to implement a few
 
 ---
 
+</details>
+
 <details>
 <summary> Step one: Quick and Dirty</summary>
 
@@ -92,8 +96,10 @@ However before we start coding we need to implement a few
 
   ![Weekly Report](Images/quick_report.png)
 
+---
+
 </details>
-  ***
+  
 <details>
 <summary>Step two: Reengineer Quick Approach to Funtional Approach </summary>
 
@@ -106,6 +112,9 @@ However before we start coding we need to implement a few
 - **Application Layer - not core** [`Application_2.ipynb`](Starter-Code/Application_2.ipynb)]
 
 - **Main Entrypoint Layer** [`Main_Entry.ipynb`](Starter-Code/Main_Entry.ipynb)
+
+---
+
 </details>
 
 ### Step three: Objection Oriented Programming
@@ -122,7 +131,6 @@ However before we start coding we need to implement a few
 - Github
 - Visual Studio
 - pandas, boto3, pyyaml, awscli, jupyter, pylint, moto, coverage, memory-profile
-
 </details>
 
 <details>
