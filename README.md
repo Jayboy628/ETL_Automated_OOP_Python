@@ -106,13 +106,17 @@ target S3 bucket Above This project has four levels of difficulty, with each des
   This layer has four functions.
 
   - When the read_csv_to_df function is invoked it reads the csv file(s) and return as a Data Frame.
-  - When the write_df_s3 function is invoked it writes Data Frame to the S3 bucket as parquet file.
+  - When the write_df_s3 function is invoked the function writes to the S3 bucket as parquet file from the DataFrame.
+  - When the write_df_s3_csv function is invoked the function writes to the S3 bucket as csv file from the DataFrame.
+  - When the list_files_in_prefix function is invoked the function return all file with a prefix on the S3 bucket. return a list of all the file name containing the prfix in the key
 
 - **Application Layer**[`Application_Layer.ipynb`](Starter-Code/Application_Layer.ipynb)
   This Layer use the Extract Transform, and Load (ETL) structure
 
-  - When the extract function is invoked it first uses the read_csv_to_df function to read the files and then extract the data and return as an Data Frame
-  - When the transform_report1 is invoked it use the Data Frame from the extract function and then Trnsform the data to aggregated columns and then filter by date and return a finish Data Frame (report)
+  - When the extract function is invoked the function first use list_files_in_prefix function reads the prefix file and then the read_csv_to_df function to read the files as a csv file then extract the data and return as a DataFrame
+
+  - When the transform_report1 is invoked the function use the DataFrame from the extract function and then Trnsform the data to aggregated columns that is filter by date and then return a DataFrame (report)
+  - When the load function is invoked we first use the write function that include the key as date string
 
 - **Application Layer - not core** [`Application_2.ipynb`](Starter-Code/Application_2.ipynb)]
 
